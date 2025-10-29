@@ -1,23 +1,20 @@
-import "./globals.css";
-import Navbar from "./components/Navbar";
-
-
-
-
+import './globals.css'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 export const metadata = {
-  title: "My Website",
-  description: "Created with Next.js",
-};
+  title: 'My Modern Website',
+  description: 'A sleek Next.js website built with Vercel',
+}
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  
   return (
     <html lang="en">
       <body>
         <Navbar />
-        {children}
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
-  );
+  )
 }
