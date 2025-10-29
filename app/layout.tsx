@@ -10,7 +10,8 @@ export const metadata = {
   description: "Created with Next.js",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  
   return (
     <html lang="en">
       <body>
