@@ -1,71 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-
 body {
-  margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: #f7f8fc;
-  color: #333;
+  background: linear-gradient(to bottom right, #f9f9f9, #e3f2fd);
+  color: #222;
+  margin: 0;
+  padding: 0;
 }
 
-/* Navbar link hover */
-nav a:hover {
-  color: #ffb400;
-  transition: 0.3s;
-}
-
-/* Hero section */
-.hero {
-  height: 85vh;
-  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+nav {
+  background: #111;
+  color: white;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: center;
-  align-items: center;
+  gap: 2rem;
+}
+
+nav a {
   color: white;
-  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  color: #03a9f4;
+}
+
+main {
+  min-height: 70vh;
   padding: 2rem;
 }
 
-.hero-content h1 {
-  font-size: 2.8rem;
-  margin-bottom: 1rem;
-}
-
-.hero-content p {
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
-}
-
-.hero-btn {
-  background: white;
-  color: #2575fc;
-  border: none;
-  padding: 0.8rem 1.8rem;
-  font-size: 1rem;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.hero-btn:hover {
-  background: #ffb400;
-  color: #fff;
-}
-
-/* Section styling */
-.section {
-  max-width: 800px;
-  margin: 4rem auto;
+footer {
+  background: #111;
+  color: white;
   text-align: center;
-}
-
-.section h1 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  color: #222;
-}
-
-.section p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  color: #555;
+  padding: 1rem 0;
+  font-size: 0.9rem;
 }
