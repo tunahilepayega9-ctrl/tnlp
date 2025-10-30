@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           color: "#fff",
           marginTop: "2rem"
         }}>
-          © 2025 My Modern Website | Built with ❤️ using Next.js
+          © 2025 Tu Nahi Le Payega| Built with ❤️ using Next.js
         </footer>
       </body>
     </html>
